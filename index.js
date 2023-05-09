@@ -12,3 +12,5 @@ document.getElementById("send-btn").addEventListener("click", () => {
   }
 })
 
+console.log(import.meta.env.API_KEY) // undefined
+
